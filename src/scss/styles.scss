@@ -19,25 +19,43 @@ a:visited {
 }
 
 .jumbotron {
-  background: url("../img/pirate-ship.jpg") no-repeat center center cover;
-  // font-family: 
+  background: url("pirate-ship.jpg") no-repeat center; 
+  background-size: cover;
+  color: #ffffff;
+  font-family: 'ArchitectsDaughter';
+  font-style: italic;
+}
+
+.lead {
+  font-family: 'Caveat';
 }
 
 .byline {
   font-weight: bold;
-  font-size: 0.9rem;
-  // font-family:
+  font-family: 'Satisfy';
+  line-height: 0.5rem;
 }
 
 .credit {
   font-style: italic;
-  font-size: 0.85rem;
-  // font-family:
+  font-family: 'Caveat';
+  line-height: 0.5rem;
 }
 
-// #content {
-  // font-family:
-// }
+.content {
+  font-family: 'Satisfy';
+}
+
+#story {
+  font-family: 'Caveat';
+  font-size: 1.2rem;
+}
+
+.footer {
+  font-family: 'ArchitectsDaughter';
+  font-style: italic;
+  color: #ffffff;
+}
 
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
