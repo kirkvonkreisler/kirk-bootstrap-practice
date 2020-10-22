@@ -21,13 +21,17 @@ a:visited {
 .jumbotron {
   background: url("../img/pirate-ship.jpg") no-repeat center; 
   background-size: cover;
-  color: #ffffff;
   font-family: 'ArchitectsDaughter';
   font-style: italic;
 }
 
+.display-4 {
+  color: #ffffff;
+}
+
 .lead {
   font-family: 'Caveat';
+  color: #ffffff;
 }
 
 .byline {
